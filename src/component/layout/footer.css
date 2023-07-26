@@ -1,0 +1,13 @@
+.footer{
+    height: 90px;
+    margin-bottom: 0;
+    background-color: rgb(255, 224, 111);
+  
+    /* Add the following properties */
+    padding: 5% 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+

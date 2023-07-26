@@ -1,0 +1,14 @@
+
+.div_container{
+    height: 600px;
+    background-color: rgb(140, 228, 255);
+}
+.div_container1{
+    height: 600px;
+    background-color: rgb(255, 140, 163);
+}
+.div_container2{
+    height: 600px;
+    width: auto;
+    background-color: rgb(188, 140, 255);
+}
