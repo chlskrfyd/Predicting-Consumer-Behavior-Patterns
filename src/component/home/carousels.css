@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
   }
+
  .solution_img {
   width: 600px;
   height: 300px;
@@ -22,6 +23,7 @@
     display: flex;
     align-items: center;
   }
+
  .insight_img {
   width: 600px;
   height: 300px;
@@ -37,6 +39,7 @@
     display: flex;
     align-items: center;
   }
+
 .revolution_img {
   width: 600px;
   height: 300px;
@@ -52,6 +55,7 @@
     display: flex;
     align-items: center;
   }
+  
 .intelligenc_img {
   width: 600px;
   height: 300px;
