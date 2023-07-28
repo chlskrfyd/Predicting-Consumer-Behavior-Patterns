@@ -1,0 +1,44 @@
+
+.main-container {
+    width: 1080px;
+    margin: auto;
+    display: grid;
+   
+    gap: 1px; /* 자식요소간의 간격 */
+    margin-bottom: 100px;
+    margin-top: 30px;
+  }
+
+.temp-box-title{
+    grid-template-columns: 1080px;
+    margin-top: 60px;
+    margin-left: 30px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    font-size: 30px;
+    text-align: left;
+}
+.temp-box{
+    margin-top: 30px;
+    background: yellow;
+    width: 100%;
+    height: 500px;
+    font-size: 40px;
+    text-align: center;
+}
+.temp-box-2{
+    margin-top: 50px;
+    margin-left: 700px;
+    background: rgb(174, 255, 0);
+    height: 400px;
+    width: 300px;
+}
+.temp-box-4{
+    margin-top: 30px;
+    background: yellow;
+    width: 100%;
+    height: 400px;
+    font-size: 40px;
+    text-align: center;
+}
