@@ -23,3 +23,25 @@
     width: 90px;
     height: 40px;
 }
+
+.navdrop{
+    margin: 0px;
+    padding: 5% ;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.dropbox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+.drop_font{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration:none ;
+}
