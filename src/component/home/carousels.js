@@ -1,8 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
-import solution_img from './solution_img.jpg'
+import solution_img from './solution_img.png'
 import insight_img from './insight.jpg'
 import revolution_img from './revolution_img.webp'
 import intelligenc_img from './Intelligence_img.jpg'
+
 
 
 function UncontrolledExample() {
@@ -14,7 +15,7 @@ function UncontrolledExample() {
             <div className='wrapText'>
                 <h1>Solution</h1>
                 <div className="d-none d-md-block">
-                    <h3>대충 업체에게 정확한 솔루션을 제공해준다는 말</h3>
+                    <h3>대충 업체에게 정확한솔루션을 제공해준다는 말</h3>
                 </div>
                 
             </div>
