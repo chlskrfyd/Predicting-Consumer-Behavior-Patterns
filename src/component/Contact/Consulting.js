@@ -9,7 +9,7 @@ const Contact = () =>{
               기업컨설팅
             </div>
             <div class="temp-box-title">
-              소비자 dgda
+              소비자 행동분석
             </div>
             <div class="temp-box">6</div>
             <div class="temp-box-title">
