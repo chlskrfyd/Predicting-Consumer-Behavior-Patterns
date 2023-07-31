@@ -1,6 +1,6 @@
 .nav_navbar{
     width: 100%;
-    background-color: rgb(255, 237, 167);
+    background-color: rgb(30, 30, 57);
     display: flex;
     align-items: center;
     text-align:  right;
@@ -13,14 +13,16 @@
     margin: 10px;
     padding: 10px 20px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration:none ;
+    font-family: 'Noto Sans KR', sans-serif;
+    
 }
 
 .logo{
     margin-left: 20px;
-    color: aliceblue;
-    width: 90px;
+    color: rgb(255, 255, 255);
+    width: 100px;
     height: 40px;
 }
 
@@ -28,7 +30,8 @@
     margin: 0px;
     padding: 5% ;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -42,6 +45,15 @@
 
 .drop_font{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(17, 29, 64);
     text-decoration:none ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.title_nav{
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.nav_button{
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
 }

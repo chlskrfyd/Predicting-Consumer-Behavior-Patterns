@@ -14,7 +14,7 @@ function Nav() {
               alt="SIRI logo"/></Link>
                 <Link className='navbarMenu' to={'/'}>홈</Link>
                 <Link className='navbarMenu' to={'about'}>회사소개</Link>   
-                <NavDropdown title="분석사례" id="basic-nav-dropdown">
+                <NavDropdown title="분석사례" className="nav_button">
                     <div className='dropbox'>
                         <div className='navdrop'><Link to={'consulting'} className='drop_font'>기업컨설팅</Link></div>
                         <div className='navdrop'><Link to={'technical'}  className='drop_font'>데이터 분석 기술</Link></div>
