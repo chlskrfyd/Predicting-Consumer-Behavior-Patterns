@@ -5,6 +5,7 @@ import 남용 from "./남용.jpg"
 import 세희 from "./세희.jpg"
 import 보은 from "./보은.jpg"
 import 지혜 from "./지혜.jpg"
+import Location from '../Kakao_maps/maps.js'
 
 const About = () => {
   return (
@@ -63,9 +64,11 @@ const About = () => {
 
         <div className="temp-box-title">Contact us</div>
 
-
         <div className="temp-box">6</div>
-
+          <div>
+            <Location />
+          </div>
+          <span>세희 형님 제가 카카오 지도 넣어놨습니다</span>
       </div>
     </body>
   )
