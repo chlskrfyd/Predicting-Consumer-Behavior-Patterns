@@ -18,6 +18,7 @@
     height: 50%;
     font-size: 30px;
     text-align: left;
+    
 }
 
 .temp-box{
@@ -77,4 +78,8 @@
   background-color: rgba(0, 0, 0, 0.7); /* 배경색과 투명도 설정 */
   padding: 2px; /* 텍스트와 테두리 사이 간격 */
   font-size: 20px;
+}
+
+.name_pont{
+  font-family: 'Noto Sans KR', sans-serif;
 }

@@ -74,3 +74,7 @@
     color: white;
     text-shadow: 5px 4px 3px gray ;
   }
+
+.slid_font {
+  font-family: 'Noto Sans KR', sans-serif;
+}
