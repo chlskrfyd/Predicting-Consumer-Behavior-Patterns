@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
-import solution_img from './solution_img.png'
+import solution_img from './doors.png'
 import insight_img from './insight.jpg'
-import revolution_img from './revolution_img.jpg'
-import intelligenc_img from './Intelligence_img.jpg'
+import revolution_img from './revolution.jpg'
+import intelligenc_img from './intelligenc.jpg'
 
 
 
