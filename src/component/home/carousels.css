@@ -1,6 +1,5 @@
 .slidercontents {
     height: 750px;
-    background-color: rgb(255, 156, 156);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,7 +16,7 @@
 
   .slidercontents2{
     height: 750px;
-    background-color: rgb(255, 217, 163);
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,7 +33,7 @@
 
   .slidercontents3{
     height: 750px;
-    background-color: rgb(181, 255, 150);
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,7 +50,6 @@
 
   .slidercontents4{
     height: 750px;
-    background-color: rgb(230, 105, 105);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
