@@ -28,6 +28,8 @@
     /* background: rgb(151, 151, 151); */
     border-top: 5px gray;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .about_box_2{
@@ -73,18 +75,23 @@
 }
 
 
-.building_img {
-    width: 100%;
-    height: 100%;
-    position: relative;
+.office_space {
+  width: 60%;
+  height: 80%;
+  flex:1;
+  max-width: 70%;
   }
 
+
 .about_txt_box{
-  margin-left: 3%;
+  margin-left: 10%;
   margin-top: 7%;
   width: 500px;
   height: 400px;
+  flex: 1;
+  
 }
+
 .about_txt1{
   color: rgb(0, 0, 0);
   font-size: 19px;
@@ -100,4 +107,9 @@
 
 .about_p{
   border-bottom: 2px solid rgba(30, 35, 85, 0.182);
+}
+
+.about_contact{
+  margin-left: 5%;
+  margin-top: 30%;
 }

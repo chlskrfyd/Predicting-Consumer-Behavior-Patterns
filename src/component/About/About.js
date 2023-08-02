@@ -1,5 +1,5 @@
 import './About.css'
-import building_img from "./building_img.jpg"
+import office_space from "./office_space.jpg"
 import 낙룡 from "./낙룡.jpg"
 import 남용 from "./남용.jpg"
 import 세희 from "./세희.jpg"
@@ -15,6 +15,7 @@ const About = () => {
           회사소개
         </div>
         <div className="about_box">
+          <img src={office_space} className='office_space' alt='office_space'></img>
           <div className="about_txt_box">
             <div className="about_txt1">압도적인 외부 위협 모니터링 커버리지</div>
             <div className="about_txt2">압도적인 딥/다크웹 데이터 수집력을 기반으로
@@ -39,35 +40,35 @@ const About = () => {
               <img src={보은} alt="보은" className="mem-pic" />
                 <div className="image-caption">
                   <p className="about_p">박보은</p>
-                  <p1 >프로젝트 팀장</p1>
+                  <p1 >팀장</p1>
                 </div>
             </div>
             <div className="image-container">
               <img src={지혜} alt="지혜" className="mem-pic" />
                 <div className="image-caption">
                   <p className="about_p">김지혜</p>
-                  <p1>데이터수집 팀장</p1>
+                  <p1>데이터분석 담당</p1>
                 </div>
             </div>
             <div className="image-container">
               <img src={낙룡} alt="남용" className="mem-pic" />
                 <div className="image-caption">
                   <p className="about_p">최낙룡</p>
-                  <p1>데이터분석 팀장</p1>
+                  <p1>데이터분석 담당</p1>
                 </div>
             </div>
             <div className="image-container">
               <img src={세희} alt="세희" className="mem-pic" />
                 <div className="image-caption">
                   <p className="about_p">임세희</p>
-                  <p1>프론트엔드 팀장</p1>
+                  <p1>프론트엔드 담당</p1>
                 </div>
             </div>
             <div className="image-container">
               <img src={남용} alt="남용" className="mem-pic" />
                 <div className="image-caption">
                   <p className="about_p">정남용</p>
-                  <p1>프론트엔드 팀원</p1>
+                  <p1>프론트엔드 담당</p1>
                 </div>
             </div>                        
           </div>
@@ -76,6 +77,14 @@ const About = () => {
           <div>
           <div className="about_box">
             <Location className="about_map"/>
+            <small className="about_contact"> &#128413; 광주광역시 동구 제봉로 92 대성학원 3층
+              <br></br>
+              <br></br>
+              &#128383; 062-000-0000
+              <br></br>
+              <br></br>
+              &#128387; siridata@gmail.com
+            </small>
           </div>
             
           </div>
@@ -85,4 +94,3 @@ const About = () => {
 }
 
 export default About;
-
