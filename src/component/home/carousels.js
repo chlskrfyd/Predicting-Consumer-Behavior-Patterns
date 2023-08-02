@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import solution_img from './solution_img.png'
 import insight_img from './insight.jpg'
-import revolution_img from './revolution_img.webp'
+import revolution_img from './revolution_img.jpg'
 import intelligenc_img from './Intelligence_img.jpg'
 
 
@@ -11,7 +11,7 @@ function UncontrolledExample() {
     <Carousel>
     <Carousel.Item>
         <div className='slidercontents'>
-            <img src={solution_img} className='solution_img'></img>
+            <img src={solution_img} className='solution_img' alt='solution_img'></img>
             <div className='wrapText'>
                 <h1>Solution</h1>
                 <div className="d-none d-md-block">
@@ -23,7 +23,7 @@ function UncontrolledExample() {
     </Carousel.Item>
     <Carousel.Item>
         <div className='slidercontents2'>
-            <img src={insight_img} className='insight_img'></img>
+            <img src={insight_img} className='insight_img' alt='insight_img'></img>
 
             <div className='wrapText'>
                 <h1>Insight</h1>
@@ -36,7 +36,7 @@ function UncontrolledExample() {
         </Carousel.Item>
         <Carousel.Item>
         <div className='slidercontents3'>
-            <img src={revolution_img} className='revolution_img'></img>
+            <img src={revolution_img} className='revolution_img' alt='revolution_img'></img>
             <div className='wrapText'>
                 <h1>Revolution</h1>
                 <div className="d-none d-md-block">
@@ -48,7 +48,7 @@ function UncontrolledExample() {
     </Carousel.Item>
     <Carousel.Item>
         <div className='slidercontents4'>
-            <img src={intelligenc_img} className='intelligenc_img'></img>
+            <img src={intelligenc_img} className='intelligenc_img' alt='intelligenc_img'></img>
             <div className='wrapText'>
                 <h1>intelligence</h1>
                 <div className="d-none d-md-block">
