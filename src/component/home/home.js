@@ -15,6 +15,7 @@ const HomPage = () => {
                 <Carousels className="container"/>
                 
             </div>
+            <input type="file" id="fileUpload" />
         </body> 
     )
 }
