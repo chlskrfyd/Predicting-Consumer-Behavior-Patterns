@@ -24,12 +24,12 @@
   height: 40px;
 }
 
-.navdrop {
+.navdrop{
   margin: 0px;
   padding: 5%;
   text-decoration: none;
-  color: rgb(255, 255, 255);
   font-family: "Noto Sans KR", sans-serif;
+
 }
 
 .dropbox {
@@ -41,7 +41,8 @@
 
 .drop_font {
   text-decoration: none;
-  color: rgb(17, 29, 64);
+  color: rgb(54, 61, 80);
+  font-weight: 700;
   text-decoration: none;
   font-family: "Noto Sans KR", sans-serif;
 }
