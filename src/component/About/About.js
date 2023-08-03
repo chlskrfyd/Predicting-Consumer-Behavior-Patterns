@@ -20,23 +20,25 @@ const About = () => {
           ></img>
           <div className="about_txt_box">
             <div className="about_txt1">
-              압도적인 외부 위협 모니터링 커버리지
+              데이터분석 서비스 제공
             </div>
             <div className="about_txt2">
-              압도적인 딥/다크웹 데이터 수집력을 기반으로
-              <br></br>경쟁사 대비 폭넓은 커버리지를 확보하고 있습니다.
-            </div>
-
-            <div className="about_txt1">정확한 위협 탐지</div>
-            <div className="about_txt2">
-              그래프 기반 관계 분석 엔진과 분석 팀이​
-              <br></br>정확하게 위협요소를 탐지하고 근본 원인을 파악합니다.​
+              비즈니스 성장에 필수적인 인사이트 제공
             </div>
 
-            <div className="about_txt1">즉시 적용 가능한 인텔리전스</div>
+            <div className="about_txt1">성장 가능성 발견</div>
             <div className="about_txt2">
-              위협 그룹에 대한 이해를 기반으로 고객에게 특화된
-              <br></br>즉시 적용 가능한 인텔리전스를 제공합니다.
+              고객성장 간으성 도출 및 최고 성과 달성
+            </div>
+
+            <div className="about_txt1">비즈니스 프로세스 개선</div>
+            <div className="about_txt2">
+              핵심문제 해결 생산성 향상 비용 절감에 도움
+            </div>
+
+            <div className="about_txt1">맞춤형 서비스</div>
+            <div className="about_txt2">
+              요구사항 맞춤형 반영
             </div>
           </div>
         </div>
