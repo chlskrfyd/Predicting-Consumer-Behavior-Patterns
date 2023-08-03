@@ -1,5 +1,5 @@
 
-.main-container {
+.consulting {
     width: 1080px;
     margin: auto;
     display: grid;
@@ -9,22 +9,71 @@
     margin-top: 30px;
   }
 
-.temp-box-title{
+.consulting_title{
     grid-template-columns: 1080px;
-    margin-top: 60px;
-    margin-left: 30px;
+    margin-top: 30px;
     background: rgb(255, 255, 255);
     width: 100%;
-    height: 50%;
+    height: 100%;
     font-size: 30px;
     text-align: left;
+    font-weight: bold;
+    border-bottom: solid gray;
     font-family: 'Noto Sans KR', sans-serif;
 }
-.temp-box{
+.consulting_box{
+    border-top: 5px gray;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    
+}
+
+.consulting_box_2{
     margin-top: 30px;
-    background: yellow;
     width: 100%;
-    height: 500px;
-    font-size: 40px;
-    text-align: center;
+    height: 430px;
+    
+}
+
+.consulting_main_title{
+    margin-bottom: 200px;
+    font-weight: 500;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-basis: 100%;
+    color: black;
+    
+}
+
+.consulting_main_title::before{
+    content: "";
+    flex-grow: 1;
+    margin: 20px 16px;
+    background-color: rgb(105, 105, 105);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.consulting_main_title::after{
+    content: "";
+    flex-grow: 1;
+    margin: 20px 16px;
+    background-color: rgb(105, 105, 105);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.amazon{
+    margin-left: 780px;
+    width: 100px;
+    height: 40px;
+}
+
+.amazon_2{
+    margin-left: 850px;
+    width: 100px;
+    height: 40px;
 }
