@@ -15,9 +15,11 @@ function UncontrolledExample() {
             alt="solution_img"
           ></img>
           <div className="wrapText">
-            <h1 className="slid_font">Solution</h1>
+            <h1 className="slide_font">Solution</h1>
             <div className="d-none d-md-block">
-              <h3 className="slid_font">Effective way to solve problems</h3>
+              <h3 className="slide_under_font">
+                Effective way to solve problems
+              </h3>
             </div>
           </div>
         </div>
@@ -33,7 +35,7 @@ function UncontrolledExample() {
           <div className="wrapText">
             <h1 className="slid_font">Insight</h1>
             <div className="d-none d-md-block">
-              <h3 className="slid_font">Generate innovative ideas</h3>
+              <h3 className="slide_font">Generate innovative ideas</h3>
             </div>
           </div>
         </div>
@@ -46,9 +48,9 @@ function UncontrolledExample() {
             alt="revolution_img"
           ></img>
           <div className="wrapText">
-            <h1 className="slid_font">Revolution</h1>
+            <h1 className="slide_font">Revolution</h1>
             <div className="d-none d-md-block">
-              <h3 className="slid_font">Provide innovative data solutions</h3>
+              <h3 className="slide_font">Provide innovative data solutions</h3>
             </div>
           </div>
         </div>
@@ -61,9 +63,9 @@ function UncontrolledExample() {
             alt="intelligenc_img"
           ></img>
           <div className="wrapText">
-            <h1 className="slid_font">Intelligence</h1>
+            <h1 className="slide_font">Intelligence</h1>
             <div className="d-none d-md-block">
-              <h3 className="slid_font">Supply actionable intelligence</h3>
+              <h3 className="slide_font">Supply actionable intelligence</h3>
             </div>
           </div>
         </div>

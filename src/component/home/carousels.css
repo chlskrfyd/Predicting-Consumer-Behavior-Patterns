@@ -75,7 +75,7 @@
 .wrapText {
   position: absolute;
   margin-left: 20%;
-  padding-right: 30px;
+  padding-right: 100px;
   justify-content: center;
   right: 150px;
   color: white;
@@ -83,10 +83,14 @@
   text-align: right;
 }
 
-.slid_font {
+.slide_font {
   font-family: "Noto Sans KR", sans-serif;
 }
 
 h1:first-letter {
   font-size: 70px;
+}
+
+.slide_under_font {
+  color: gainsboro;
 }
