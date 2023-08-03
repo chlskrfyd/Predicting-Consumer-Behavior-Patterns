@@ -1,41 +1,38 @@
+.about_main {
+  width: 1080px;
+  margin: auto;
+  display: grid;
 
-  .about_main {
-    width: 1080px;
-    margin: auto;
-    display: grid;
-   
-    gap: 1px; /* 자식요소간의 간격 */
-    margin-bottom: 100px;
-    margin-top: 30px;
-  }
-
-.about_title{
-    grid-template-columns: 1080px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    background: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    text-align: left;
-    font-weight: bold;
-    border-bottom: solid gray;
-
-    
+  gap: 1px; /* 자식요소간의 간격 */
+  margin-bottom: 100px;
+  margin-top: 30px;
 }
 
-.about_box{
-    /* background: rgb(151, 151, 151); */
-    border-top: 5px gray;
-    text-align: left;
-    display: flex;
-    align-items: center;
+.about_title {
+  grid-template-columns: 1080px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: solid gray;
 }
 
-.about_box_2{
-    margin-left: 700px;
-    height: 300px;
-    width: 300px;
+.about_box {
+  /* background: rgb(151, 151, 151); */
+  border-top: 5px gray;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.about_box_2 {
+  margin-left: 700px;
+  height: 300px;
+  width: 300px;
 }
 
 .about_box_3 {
@@ -62,54 +59,51 @@
 }
 
 .image-caption {
-  position: relative; 
+  position: relative;
   bottom: 10px;
-  left: 0; 
-  right: 0; 
+  left: 0;
+  right: 0;
   text-align: left; /* 텍스트 가운데 정렬 */
-  color: rgb(25, 41, 133); 
+  color: rgb(25, 41, 133);
   padding: 2px; /* 텍스트와 테두리 사이 간격 */
   font-size: 15px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
 }
-
 
 .office_space {
   width: 60%;
   height: 80%;
-  flex:1;
+  flex: 1;
   max-width: 70%;
-  }
+}
 
-
-.about_txt_box{
+.about_txt_box {
   margin-left: 10%;
   margin-top: 7%;
   width: 500px;
   height: 400px;
   flex: 1;
-  
 }
 
-.about_txt1{
+.about_txt1 {
   color: rgb(0, 0, 0);
   font-size: 19px;
   margin-top: 30px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
-.about_txt2{
+.about_txt2 {
   color: rgb(0, 0, 0);
   font-size: 14px;
   margin-top: 10px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
-.about_p{
+.about_p {
   border-bottom: 2px solid rgba(30, 35, 85, 0.182);
 }
 
-.about_contact{
+.about_contact {
   margin-left: 5%;
   margin-top: 30%;
 }
