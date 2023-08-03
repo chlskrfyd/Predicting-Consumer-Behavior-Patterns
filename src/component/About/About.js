@@ -19,16 +19,14 @@ const About = () => {
             alt="office_space"
           ></img>
           <div className="about_txt_box">
-            <div className="about_txt1">
-              데이터분석 서비스 제공
-            </div>
+            <div className="about_txt1">데이터분석 서비스 제공</div>
             <div className="about_txt2">
               비즈니스 성장에 필수적인 인사이트 제공
             </div>
 
             <div className="about_txt1">성장 가능성 발견</div>
             <div className="about_txt2">
-              고객성장 간으성 도출 및 최고 성과 달성
+              고객성장 가능성 도출 및 최고 성과 달성
             </div>
 
             <div className="about_txt1">비즈니스 프로세스 개선</div>
@@ -37,9 +35,7 @@ const About = () => {
             </div>
 
             <div className="about_txt1">맞춤형 서비스</div>
-            <div className="about_txt2">
-              요구사항 맞춤형 반영
-            </div>
+            <div className="about_txt2">요구사항 맞춤형 반영</div>
           </div>
         </div>
 
