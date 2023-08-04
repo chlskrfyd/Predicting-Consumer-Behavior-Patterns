@@ -1,6 +1,10 @@
+import React from "react";
 import "./Technical.css";
 import starbucks from "./startbucks.png";
 import amazon from "./amazon.png";
+import createPlotlyComponent from "react-plotly.js/factory";
+import graphData from "./graphData.json";
+import Plot from "react-plotly.js";
 
 const Contact = () => {
   return (
@@ -25,6 +29,11 @@ const Contact = () => {
           <img src={amazon} className="starbucks" alt="starbucks"></img>
         </div>
         <div className="consulting_box_2"></div>
+        <Plot
+          data={graphData.data}
+          layout={graphData.layout}
+          config={{ responsive: true }}
+        />
       </div>
     </body>
   );
