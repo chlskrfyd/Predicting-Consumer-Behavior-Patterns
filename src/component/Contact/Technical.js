@@ -2,7 +2,7 @@ import "./Technical.css";
 import starbucks from "./startbucks.png";
 import amazon from "./amazon.png";
 
-const Contact = () => {
+const Tachnical = () => {
   return (
     <body className="consulting">
       <div className="about_main">
@@ -30,4 +30,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Tachnical;

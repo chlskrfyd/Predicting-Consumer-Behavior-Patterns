@@ -1,7 +1,7 @@
 import './Consulting.css'
 import amazon from "./amazon.png"
 
-const Contact = () =>{
+const Consulting = () =>{
     return (
 <body className="consulting">
       <div className='about_main'>
@@ -28,4 +28,4 @@ const Contact = () =>{
     )
 }
 
-export default Contact;
+export default Consulting;
