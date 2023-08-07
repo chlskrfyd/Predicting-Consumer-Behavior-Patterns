@@ -1,4 +1,4 @@
-.consulting {
+.technical {
   width: 1080px;
   margin: auto;
   display: grid;
@@ -8,7 +8,7 @@
   margin-top: 30px;
 }
 
-.consulting_title{
+.technical_title{
   grid-template-columns: 1080px;
   margin-top: 30px;
   background: rgb(255, 255, 255);
@@ -20,7 +20,7 @@
   border-bottom: solid gray;
   font-family: 'Noto Sans KR', sans-serif;
 }
-.consulting_box{
+.technical_box{
   border-top: 5px gray;
   text-align: left;
   display: flex;
@@ -28,14 +28,14 @@
   
 }
 
-.consulting_box_2{
+.technical_box_2{
   margin-top: 30px;
   width: 100%;
   height: 430px;
   
 }
 
-.consulting_main_title{
+.technical_main_title{
   margin-bottom: 200px;
   font-weight: 500;
   font-family: 'Noto Sans KR', sans-serif;
@@ -47,7 +47,7 @@
 
 
 
-.consulting_main_title::after{
+.technical_main_title::after{
   content: "";
   flex-grow: 1;
   margin: 20px 16px;
@@ -58,7 +58,7 @@
 }
 
 .tec_img_star{
-  margin-left: 980px;
+  margin-left: 720px;
   height: 70px;
   width: 80px;
 }
