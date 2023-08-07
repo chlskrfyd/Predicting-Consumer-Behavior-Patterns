@@ -1,6 +1,10 @@
+import React from "react";
 import "./Technical.css";
 import starbucks from "./startbucks.png";
 import amazon from "./amazon.png";
+import createPlotlyComponent from "react-plotly.js/factory";
+import graphData from "./graphData.json";
+import Plot from "react-plotly.js";
 
 const Tachnical = () => {
   return (
@@ -12,6 +16,11 @@ const Tachnical = () => {
           스타벅스 지점 예측
           <img src={starbucks} className="tec_img_star" alt="starbucks"></img>
         </div>
+        <Plot
+          data={graphData.data}
+          layout={graphData.layout}
+          config={{ responsive: true }}
+        />
         <div className="consulting_box_2"></div>
 
         <div className="consulting_title">
