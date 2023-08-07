@@ -15,13 +15,14 @@ const Tachnical = () => {
           스타벅스 지점 예측
           <img src={starbucks} className="tec_img_star" alt="starbucks"></img>
         </div>
-        
+
         <div className="technical_box_2">
-        <Plot
-          data={graphData.data}
-          layout={graphData.layout}
-          config={{ responsive: true }}
-        />
+          <p>개요 : 증가하는 커피 소비량에 맞춰 스타벅스 지점 예측 서비스</p>
+          <Plot
+            data={graphData.data}
+            layout={graphData.layout}
+            config={{ responsive: true }}
+          />
         </div>
 
         <div className="technical_title">
