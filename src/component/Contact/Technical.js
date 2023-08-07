@@ -16,6 +16,11 @@ const Contact = () => {
           <span className="title-text">스타벅스 지점 예측</span>
           <img src={starbucks} className="starbucks" alt="starbucks"></img>
         </div>
+        <Plot
+          data={graphData.data}
+          layout={graphData.layout}
+          config={{ responsive: true }}
+        />
         <div className="consulting_box_2"></div>
 
         <div className="consulting_title">
@@ -29,11 +34,6 @@ const Contact = () => {
           <img src={amazon} className="starbucks" alt="starbucks"></img>
         </div>
         <div className="consulting_box_2"></div>
-        <Plot
-          data={graphData.data}
-          layout={graphData.layout}
-          config={{ responsive: true }}
-        />
       </div>
     </body>
   );
