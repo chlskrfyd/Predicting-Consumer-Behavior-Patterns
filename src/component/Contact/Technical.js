@@ -9,7 +9,7 @@ const Tachnical = () => {
         <h1 className="consulting_main_title">데이터 분석 기술</h1>
 
         <div className="consulting_title">
-          <span className="title-text">스타벅스 지점 예측</span>
+          스타벅스 지점 예측
           <img src={starbucks} className="tec_img_star" alt="starbucks"></img>
         </div>
         <div className="consulting_box_2"></div>
