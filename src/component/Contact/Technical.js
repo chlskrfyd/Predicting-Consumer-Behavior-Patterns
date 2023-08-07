@@ -11,17 +11,18 @@ const Tachnical = () => {
     <body className="technical">
       <div className="about_main">
         <h1 className="technical_main_title">데이터 분석 기술</h1>
-
         <div className="technical_title">
           스타벅스 지점 예측
           <img src={starbucks} className="tec_img_star" alt="starbucks"></img>
         </div>
+        
+        <div className="technical_box_2">
         <Plot
           data={graphData.data}
           layout={graphData.layout}
           config={{ responsive: true }}
         />
-        <div className="technical_box_2"></div>
+        </div>
 
         <div className="technical_title">
           감정분석
