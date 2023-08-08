@@ -93,4 +93,5 @@ h1:first-letter {
 
 .slide_under_font {
   color: gainsboro;
+  font-family: "Noto Sans KR", sans-serif;
 }
