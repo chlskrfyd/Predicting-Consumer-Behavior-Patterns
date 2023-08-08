@@ -7,7 +7,7 @@ import Nav from "./component/layout/Nav";
 import React from "react";
 import Footer from "./component/layout/footer";
 import Consulting from "./component/Contact/Consulting";
-import Technical from "./component/Contact/Technical";
+
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/technical" element={<Technical />} />
               <Route path="/consulting" element={<Consulting />} />
             </Routes>
           </div>
