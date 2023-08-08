@@ -98,7 +98,7 @@ const Consulting = () => {
           config={{ responsive: true }}
         />
       </div>
-      <div className="consulting_title">대주제</div>
+      <div className="consulting_title">결론 : 비즈니스 제안</div>
       <br />
       asdf
     </body>
