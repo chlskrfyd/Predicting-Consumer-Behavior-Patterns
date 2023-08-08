@@ -69,3 +69,9 @@
   width: 100px;
   height: 40px;
 }
+
+.buy_prediction_img {
+  width: 600px;
+  height: 550px;
+  object-fit: cover;
+}
