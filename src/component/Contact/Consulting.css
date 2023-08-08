@@ -74,4 +74,5 @@
   width: 600px;
   height: 550px;
   object-fit: cover;
+  position: static;
 }
