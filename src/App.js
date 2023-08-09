@@ -6,7 +6,9 @@ import About from "./component/About/About";
 import Nav from "./component/layout/Nav";
 import React from "react";
 import Footer from "./component/layout/footer";
-import Consulting from "./component/Contact/Consulting";
+import Customer from "./component/Contact/Customer";
+import Category from "./component/Contact/Category";
+import Segmentation from "./component/Contact/Segmentation";
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/consulting" element={<Consulting />} />
+              <Route path="/customer" element={<Customer />} />
+              <Route path="/category" element={<Category />} />
+              <Route path="/segmentation" element={<Segmentation />} />
             </Routes>
           </div>
         </BrowserRouter>

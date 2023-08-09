@@ -1,4 +1,4 @@
-import "./Consulting.css";
+import "./Customer.css";
 import amazon from "./amazon/amazon.png";
 import createPlotlyComponent from "react-plotly.js/factory";
 import Plot from "react-plotly.js";
@@ -22,22 +22,22 @@ import segmentation1 from "./amazon/amazon_고객세분화/customer_segmentation
 import segmentation2 from "./amazon/amazon_고객세분화/customer_segmentation2.json";
 import segmentation3 from "./amazon/amazon_고객세분화/customer_segmentation3.json";
 
-const Consulting = () => {
+const Customer = () => {
   return (
-    <body className="consulting">
+    <body className="customer">
       <div className="about_main">
-        <h1 className="consulting_main_title">Cousultings</h1>
+        <h1 className="customer_main_title">고객이탈예측</h1>
 
-        <div className="consulting_title">아마존 소비자 행동 분석</div>
-        <div className="consulting_box">
+        <div className="customer_title">아마존 소비자 행동 분석</div>
+        <div className="customer_box">
           asdfa
         </div>
 
-        <div className="consulting_title">
+        <div className="customer_title">
           고객 이탈 예측
           <img src={amazon} className="amazon_1" alt="amazon"></img>
         </div>
-        <div className="consulting_box_2">
+        <div className="customer_box_2">
           <h3>1</h3>
           <img src={고객이탈예측1} alt="고객이탈예측1"></img>
           <h3>2</h3>
@@ -51,11 +51,11 @@ const Consulting = () => {
           <h3>4</h3>
           <img src={고객이탈예측4} alt="고객이탈예측4"></img>
         </div>
-        <div className="consulting_title">
+        <div className="customer_title">
           구매 카테고리 예측
           <img src={amazon} className="amazon_2" alt="amazon"></img>
         </div>
-        <div className="consulting_box_2"></div>
+        <div className="customer_box_2"></div>
         <h3>1</h3>
         <Plot // buy_prediction1
           data={buy_prediction1.data}
@@ -86,11 +86,11 @@ const Consulting = () => {
           src={구매예측4}
           alt="구매예측4"
         ></img>
-        <div className="consulting_title">
+        <div className="customer_title">
           고객 세분화
           <img src={amazon} className="amazon_3" alt="amazon"></img>
         </div>
-        <div className="consulting_box_2"></div>
+        <div className="customer_box_2"></div>
         <Plot // customer_segmentation1
           data={segmentation1.data}
           layout={segmentation1.layout}
@@ -107,11 +107,11 @@ const Consulting = () => {
           config={{ responsive: true }}
         />
       </div>
-      <div className="consulting_title">결론 : 비즈니스 제안</div>
+      <div className="customer_title">결론 : 비즈니스 제안</div>
       <br />
       asdf
     </body>
   );
 };
 
-export default Consulting;
+export default Customer;
