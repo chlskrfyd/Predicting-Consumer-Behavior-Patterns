@@ -21,9 +21,12 @@ const Consulting = () => {
     <body className="consulting">
       <div className="about_main">
         <h1 className="consulting_main_title">Cousultings</h1>
-        <div className="consulting_title">대주제</div>
-        <br />
-        asdf
+
+        <div className="consulting_title">아마존 소비자 행동 분석</div>
+        <div className="consulting_box">
+          asdfa
+        </div>
+
         <div className="consulting_title">
           고객 이탈 예측
           <img src={amazon} className="amazon_1" alt="amazon"></img>

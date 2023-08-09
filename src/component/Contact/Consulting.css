@@ -21,10 +21,11 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 .consulting_box {
-  border-top: 5px gray;
+  width: auto;
+  height: 400px;
+  margin: 30px;
   text-align: left;
-  display: flex;
-  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .consulting_box_2 {
@@ -34,7 +35,7 @@
 }
 
 .consulting_main_title {
-  margin-bottom: 200px;
+  margin-bottom: 80px;
   font-weight: 500;
   font-family: "Noto Sans KR", sans-serif;
   display: flex;
