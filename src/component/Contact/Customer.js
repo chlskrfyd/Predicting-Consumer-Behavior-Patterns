@@ -10,106 +10,30 @@ import 고객이탈예측3_1 from "./amazon/amazon_고객이탈예측/고객이�
 import 고객이탈예측3_2 from "./amazon/amazon_고객이탈예측/고객이탈예측3-2.png";
 import 고객이탈예측4 from "./amazon/amazon_고객이탈예측/고객이탈예측4.png";
 
-// 구매 카테고리 예측
-import buy_prediction1 from "./amazon/amazon_구매카테고리예측/buy_predict1.json";
-import buy_prediction2 from "./amazon/amazon_구매카테고리예측/buy_predict2.json";
-import just1 from "./amazon/amazon_구매카테고리예측/just1.json";
-import just2 from "./amazon/amazon_구매카테고리예측/just2.json";
-import 구매예측4 from "./amazon/amazon_구매카테고리예측/구매예측4.png";
-
-// 고객 세분화
-import segmentation1 from "./amazon/amazon_고객세분화/customer_segmentation1.json";
-import segmentation2 from "./amazon/amazon_고객세분화/customer_segmentation2.json";
-import segmentation3 from "./amazon/amazon_고객세분화/customer_segmentation3.json";
-
 const customer = () => {
   return (
     <body className="customer">
       <div className="about_main">
-        <h1 className="customer_main_title">Cousultings</h1>
-
-        <div className="customer_title">아마존 소비자 행동 분석</div>
-        <div className="customer_box">
-          asdfa
+        <h1 className="customer_main_title">고객이탈예측</h1>
+        <div className="customer_main_txt">
+        고객의 구매 패턴, 브라우징 빈도, 리뷰 남김 여부 등의 정보를 활용하여 고객 이탈을 예측하는 모델 
+        <br></br>이를 통해 이탈할 가능성이 높은 고객에게 특별한 제안을 보내거나 개인화된 경험을 제공하여 이탈을 방지할 수 있습니다.
         </div>
 
+        <div className="customer_title">고객 이탈률을 선정하는데 있어 어떤 특성이 가장 중요한가</div>
+          <div className="customer_img">
+            <img src={고객이탈예측1} alt="고객이탈예측1"></img>
+          </div>
+          <div className="customer_txt"> ➡ 검색 횟수,소비자 리뷰 중요도, 쇼핑 만족도 등이 고객 이탈률을 계산하는데 있어서 중요한 경향이 있는 것을 알 수 있었다.</div>
+        
+
         <div className="customer_title">
-          고객 이탈 예측
-          <img src={amazon} className="amazon_1" alt="amazon"></img>
-        </div>
-        <div className="customer_box_2">
-          <h3>1</h3>
-          <img src={고객이탈예측1} alt="고객이탈예측1"></img>
-          <h3>2</h3>
-          <img src={고객이탈예측2} alt="고객이탈예측2"></img>
-          <br />
-          <h3>3</h3>
-          <img src={고객이탈예측3_1} alt="고객이탈예측3-1"></img>
-          <br />
-          <img src={고객이탈예측3_2} alt="고객이탈예측3-2"></img>
-          <br />
-          <h3>4</h3>
-          <img src={고객이탈예측4} alt="고객이탈예측4"></img>
-        </div>
-        <div className="customer_title">
-          구매 카테고리 예측
-          <img src={amazon} className="amazon_2" alt="amazon"></img>
-        </div>
-        <div className="customer_box_2"></div>
-        <h3>1</h3>
-        <Plot // buy_prediction1
-          data={buy_prediction1.data}
-          layout={buy_prediction1.layout}
-          config={{ responsive: true }}
-        />
-        <h3>2</h3>
-        <Plot // buy_prediction2
-          data={buy_prediction2.data}
-          layout={buy_prediction2.layout}
-          config={{ responsive: true }}
-        />
-        <h3>3</h3>
-        <Plot // just1
-          data={just1.data}
-          layout={just1.layout}
-          config={{ responsive: true }}
-        />
-        <h3>4</h3>
-        <Plot // just2
-          data={just2.data}
-          layout={just2.layout}
-          config={{ responsive: true }}
-        />
-        <h3>5</h3>
-        <img
-          className="buy_prediction_img"
-          src={구매예측4}
-          alt="구매예측4"
-        ></img>
-        <div className="customer_title">
-          고객 세분화
-          <img src={amazon} className="amazon_3" alt="amazon"></img>
-        </div>
-        <div className="customer_box_2"></div>
-        <Plot // customer_segmentation1
-          data={segmentation1.data}
-          layout={segmentation1.layout}
-          config={{ responsive: true }}
-        />
-        <Plot // customer_segmentation2
-          data={segmentation2.data}
-          layout={segmentation2.layout}
-          config={{ responsive: true }}
-        />
-        <Plot // customer_segmentation3
-          data={segmentation3.data}
-          layout={segmentation3.layout}
-          config={{ responsive: true }}
-        />
-      </div>
-      <div className="customer_title">결론 : 비즈니스 제안</div>
-      <br />
-      asdf
+          검색 횟수와 이탈률의 상관관계</div>
+          <div className="customer_img">
+            <img src={고객이탈예측2} alt="고객이탈예측2"></img>
+          </div>
+          <div className="customer_txt"> ➡ 그래프에서 가장 중요한 특성을확인해보기로하였다. 검색 횟수가 낮을수록 고객 이탈률이 높다.</div>
+     </div>
     </body>
   );
 };

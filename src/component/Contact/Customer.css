@@ -4,7 +4,6 @@
   display: grid;
 
   gap: 1px; /* 자식요소간의 간격 */
-  margin-bottom: 100px;
   margin-top: 30px;
 }
 
@@ -21,11 +20,10 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 .customer_box {
-  width: auto;
-  height: 400px;
-  margin: 30px;
+  border-top: 5px gray;
   text-align: left;
-  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  align-items: center;
 }
 
 .customer_box_2 {
@@ -35,7 +33,7 @@
 }
 
 .customer_main_title {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   font-weight: 500;
   font-family: "Noto Sans KR", sans-serif;
   display: flex;
@@ -76,4 +74,28 @@
   height: 550px;
   object-fit: cover;
   position: static;
+}
+
+.customer_img{
+  margin-top: 70px;
+  margin-left: 200px;
+  width: 60%;
+  height: 80%;
+  flex: 1;
+  max-width: 70%;
+}
+
+.customer_txt{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: left;
+}
+
+.customer_main_txt{
+  font-family: "Noto Sans KR", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: left;
 }
