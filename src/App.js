@@ -9,7 +9,7 @@ import Footer from "./component/layout/footer";
 import Customer from "./component/Contact/Customer";
 import Category from "./component/Contact/Category";
 import Segmentation from "./component/Contact/Segmentation";
-
+import Business from "./component/Contact/Business";
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
               <Route path="/customer" element={<Customer />} />
               <Route path="/category" element={<Category />} />
               <Route path="/segmentation" element={<Segmentation />} />
+              <Route path="/business" element={<Business />} />
             </Routes>
           </div>
         </BrowserRouter>

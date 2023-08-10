@@ -34,6 +34,11 @@ function Nav() {
                   <p className="drop_navbarMenu">고객세분화</p>
                 </Link>
               </NavDropdown.Item>
+              <NavDropdown.Item >
+                <Link to={"business"}  style={{ textDecoration: "none" }}>
+                  <p className="drop_navbarMenu">비즈니스전략</p>
+                </Link>
+              </NavDropdown.Item>
             </NavDropdown>
       </div>
     </div>
