@@ -7,6 +7,8 @@ import Plot from "react-plotly.js";
 import segmentation1 from "./amazon/amazon_고객세분화/customer_segmentation1.json";
 import segmentation2 from "./amazon/amazon_고객세분화/customer_segmentation2.json";
 import segmentation3 from "./amazon/amazon_고객세분화/customer_segmentation3.json";
+import segmentation_img1 from "./business_img/segmentation1.png";
+import segmentation_img2 from "./business_img/segmentation2.png";
 
 const Segmentation = () => {
   return (
@@ -34,11 +36,11 @@ const Segmentation = () => {
           config={{ responsive: true }}
         />
         <div className="segmentation_box">
-          ➡고객들을 세분화 한 특성들을 2차원으로 차원 축소하여 보기 편하게
+          ➡&nbsp;고객들을 세분화 한 특성들을 2차원으로 차원 축소하여 보기 편하게
           만들었다.
           <br />
-          ➡위 그래프를 볼 때 고객들이 잘 세분화되어 나누어져 있는 것을 확인할 수
-          있었다.
+          ➡&nbsp;위 그래프를 볼 때 고객들이 잘 세분화되어 나누어져 있는 것을
+          확인할 수 있었다.
         </div>
         <div className="segmentation_title">그룹별 특징</div>
         <br />
@@ -50,20 +52,21 @@ const Segmentation = () => {
         />
         <div className="segmentation_box">
           <div>
-            ➡그룹 0: 개인화된 추천 빈도가 높고, 검색 횟수는 낮은 편이다.
+            ➡&nbsp;그룹 0: 개인화된 추천 빈도가 높고, 검색 횟수는 낮은 편이다.
           </div>
           <div>
-            ➡그룹 1:나이가 가장 어리고 고객 리뷰를 중요하게 생각하지않는다.
+            ➡&nbsp;그룹 1:나이가 가장 어리고 고객 리뷰를 중요하게
+            생각하지않는다.
           </div>
           <div>
-            ➡그룹 2:검색 횟수가 가장 높으며, 고객 리뷰를 중요하게 생각하며
+            ➡&nbsp;그룹 2:검색 횟수가 가장 높으며, 고객 리뷰를 중요하게 생각하며
             개인화된 추천 빈도와 장바구니 완성 빈도는 낮다.
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제품을 검색할때 주로 다른
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제품을 검색할때 주로 다른
             방법(other)으로 검색한다.
           </div>
           <div>
-            ➡그룹 3: 나이가 가장 높으며, 개인화된 추천 빈도와 검색 횟수가
+            ➡&nbsp;그룹 3: 나이가 가장 높으며, 개인화된 추천 빈도와 검색 횟수가
             낮고,장바구니 사용빈도가 낮음
           </div>
         </div>
@@ -78,9 +81,30 @@ const Segmentation = () => {
           config={{ responsive: true }}
         />
         <div className="segmentation_box">
-          ➡2번 그룹이 다른 고객들에 비해 제품을 고를 때 키워드,태그와 다른
+          ➡&nbsp;2번 그룹이 다른 고객들에 비해 제품을 고를 때 키워드,태그와 다른
           방법을 사용한 경우가 많았다.
         </div>
+        <div className="segmentation_title">비즈니스 제안 사례</div>
+        <br />
+        <br />
+        <figure>
+          <img
+            className="segmentation_img"
+            src={segmentation_img1}
+            alt="segmentation_img1"
+          />
+          <br />
+
+          <figcaption>고객세분화 비즈니스 제안 사례 1</figcaption>
+        </figure>
+        <figure>
+          <img
+            className="segmentation_img"
+            src={segmentation_img2}
+            alt="segmentation_img2"
+          />
+          <figcaption>고객세분화 비즈니스 제안 사례 2</figcaption>
+        </figure>
       </div>
     </body>
   );
