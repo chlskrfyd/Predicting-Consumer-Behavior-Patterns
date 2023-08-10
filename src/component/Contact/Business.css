@@ -6,6 +6,7 @@
   gap: 1px; /* 자식요소간의 간격 */
   margin-bottom: 100px;
   margin-top: 30px;
+  
 }
 
 .business_title {
@@ -26,6 +27,7 @@
   margin: 30px;
   text-align: left;
   font-family: "Noto Sans KR", sans-serif;
+  
 }
 
 .business_box_2 {
