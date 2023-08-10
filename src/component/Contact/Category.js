@@ -55,13 +55,14 @@ const Category = () => {
         <div className="category_title">
           고객들이 생각하는 서비스 개선필요 영역 순위
         </div>
+
         <div className="category_box">
-          {" "}
-          <img
-            className="buy_prediction_img"
-            src={구매예측4}
-            alt="구매예측4"
-          ></img>
+          <Plot // buy_prediction2
+            data={just1.data}
+            layout={just1.layout}
+            config={{ responsive: true }}
+          />
+
           <div className="category_txt">
             ➡ 설문조사 결과 고객 서비스 응답성, 제품 품질 및 정확성, 포장 쓰레기
             줄이기, 배송속도 및 신뢰성 순으로
