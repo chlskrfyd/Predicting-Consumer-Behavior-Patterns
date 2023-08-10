@@ -7,6 +7,8 @@ import Plot from "react-plotly.js";
 import segmentation1 from "./amazon/amazon_고객세분화/customer_segmentation1.json";
 import segmentation2 from "./amazon/amazon_고객세분화/customer_segmentation2.json";
 import segmentation3 from "./amazon/amazon_고객세분화/customer_segmentation3.json";
+import segmentation_img1 from "./business_img/segmentation1.png";
+import segmentation_img2 from "./business_img/segmentation2.png";
 
 const Segmentation = () => {
   return (
@@ -81,6 +83,25 @@ const Segmentation = () => {
           ➡2번 그룹이 다른 고객들에 비해 제품을 고를 때 키워드,태그와 다른
           방법을 사용한 경우가 많았다.
         </div>
+        <div className="segmentation_title">비즈니스 제안 사례</div>
+        <br />
+        <br />
+        <figure>
+          <img
+            className="segmentation_img"
+            src={segmentation_img1}
+            alt="segmentation_img1"
+          />
+          <figcaption>고객세분화 비즈니스 제안 사례 1</figcaption>
+        </figure>
+        <figure>
+          <img
+            className="segmentation_img"
+            src={segmentation_img2}
+            alt="segmentation_img2"
+          />
+          <figcaption>고객세분화 비즈니스 제안 사례 2</figcaption>
+        </figure>
       </div>
     </body>
   );
