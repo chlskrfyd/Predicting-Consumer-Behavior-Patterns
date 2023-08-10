@@ -1,91 +1,90 @@
 .category {
-    width: 1080px;
-    margin: auto;
-    display: grid;
-  
-    gap: 1px; /* 자식요소간의 간격 */
-    margin-bottom: 100px;
-    margin-top: 30px;
-  }
-  
-  .category_title {
-    grid-template-columns: 1080px;
-    margin-top: 30px;
-    background: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    text-align: left;
-    font-weight: bold;
-    border-bottom: solid gray;
-    font-family: "Noto Sans KR", sans-serif;
-  }
-  .category_box {
-    width: 100%;
-    height: 650px;
-    margin-top: 50px;
-    margin-left: 0; 
-    font-family: "Noto Sans KR", sans-serif;
-    background-color: rgb(33, 33, 58);
-    border-radius: 2%;
-    
-  }
-  
-  .category_box_2 {
-    width: 100%;
-    height: 700px;
-    margin-top: 50px;
-    margin-left: 0; 
-    font-family: "Noto Sans KR", sans-serif;
-    background-color: rgb(33, 33, 58);
-    border-radius: 2%;
-  }
-  
-  .category_main_title {
-    margin-bottom: 20px;
-    font-weight: 500;
-    font-family: "Noto Sans KR", sans-serif;
-    display: flex;
-    flex-basis: 100%;
-    color: rgb(33, 33, 58);
-  }
-  
-  .category_main_title::after {
-    content: "";
-    flex-grow: 1;
-    margin: 20px 16px;
-    background-color: rgb(25, 18, 69);
-    height: 2px;
-    font-size: 0px;
-    line-height: 0px;
-  }
-  
-  .amazon_1 {
-    margin-left: 770px;
-    width: 100px;
-    height: 40px;
-  }
-  
-  .amazon_2 {
-    margin-left: 700px;
-    width: 100px;
-    height: 40px;
-  }
-  
-  .amazon_3 {
-    margin-left: 790px;
-    width: 100px;
-    height: 40px;
-  }
-  
-  .buy_prediction_img {
-    width: 600px;
-    height: 550px;
-    object-fit: cover;
-    position: static;
-  }
-  
-  .category_txt{
+  width: 1080px;
+  margin: auto;
+  display: grid;
+
+  gap: 1px; /* 자식요소간의 간격 */
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.category_title {
+  grid-template-columns: 1080px;
+  margin-top: 30px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: solid gray;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.category_box {
+  width: 100%;
+  height: 650px;
+  margin-top: 50px;
+  margin-left: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(33, 33, 58);
+  border-radius: 2%;
+}
+
+.category_box_2 {
+  width: 100%;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(33, 33, 58);
+  border-radius: 2%;
+}
+
+.category_main_title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  flex-basis: 100%;
+  color: rgb(33, 33, 58);
+}
+
+.category_main_title::after {
+  content: "";
+  flex-grow: 1;
+  margin: 20px 16px;
+  background-color: rgb(25, 18, 69);
+  height: 2px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.amazon_1 {
+  margin-left: 770px;
+  width: 100px;
+  height: 40px;
+}
+
+.amazon_2 {
+  margin-left: 700px;
+  width: 100px;
+  height: 40px;
+}
+
+.amazon_3 {
+  margin-left: 790px;
+  width: 100px;
+  height: 40px;
+}
+
+.buy_prediction_img {
+  width: 600px;
+  height: 550px;
+  object-fit: cover;
+  position: static;
+}
+
+.category_txt {
   margin-left: 50px;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -93,16 +92,15 @@
   font-family: "Noto Sans KR", sans-serif;
   text-align: left;
   color: aliceblue;
-  }
+}
 
-  .category_main_txt{
-    font-family: "Noto Sans KR", sans-serif;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    text-align: left;   
-    
-  }
+.category_main_txt {
+  font-family: "Noto Sans KR", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  text-align: left;
+}
 
-  .category_plot{
-    margin-top: 30px;
-  }
+.category_plot {
+  margin-top: 30px;
+}
