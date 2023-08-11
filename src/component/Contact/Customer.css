@@ -25,7 +25,7 @@
   margin-top: 50px;
   margin-left: 0;
   font-family: "Noto Sans KR", sans-serif;
-  background-color: rgb(33, 33, 58);
+  /* background-color: rgb(33, 33, 58); */
   border-radius: 2%;
 }
 
@@ -113,7 +113,7 @@
   align-items: center;
 }
 
-.customer_txt_2{
+.customer_txt_2 {
   margin-top: 150px;
   margin-left: 50px;
   font-size: 18px;
