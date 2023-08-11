@@ -10,7 +10,6 @@ import Plot from "react-plotly.js";
 // import customer2 from "./business_img/customer2.png";
 // import segmentation1 from "./business_img/segmentation1.png";
 // import segmentation2 from "./business_img/segmentation2.png";
-
 import result_chart from "./business_img/result_chart.png";
 
 const Business = () => {
@@ -20,7 +19,6 @@ const Business = () => {
         <h1 className="business_main_title">비즈니스 전략</h1>
 
         {/* <div className="business_title">고객 이탈 예측</div>
-        <div className="business_box">asdfa</div>
 
         <div className="business_title">구매 카테고리 예측</div>
         <div className="business_box">asdfa</div> */}
