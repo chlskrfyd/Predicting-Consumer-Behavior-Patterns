@@ -38,19 +38,20 @@ const Category = () => {
           <div className="category_txt">
             ➡ 카테고리에 따른 현재 구매빈도를 보면 옷이 구매횟수가 제일 많고 그
             다음이 뷰티용품인 것으로 보인다.
-            <br></br>아마도 아마존의 주 고객이 20대 중후반 여성이 많은 것과
-            밀접한 관련이 있다고 보여진다.
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아마존의 주 고객이 20대 중후반 여성이
+            많은 것과 밀접한 관련이 있다고 보여진다.
           </div>
         </div>
 
         <div className="category_title">음식 카테고리와 특성간의 상관관계</div>
         <div className="category_box">
-        <div className="category_plot">
-          <Plot // buy_prediction2
-            data={buy_prediction2.data}
-            layout={buy_prediction2.layout}
-            config={{ responsive: true }}
-          />
+          <div className="category_plot">
+            <Plot // buy_prediction2
+              data={buy_prediction2.data}
+              layout={buy_prediction2.layout}
+              config={{ responsive: true }}
+            />
           </div>
           <div className="category_txt">
             ➡ 식료품과 음식 카테고리에 중요한 특성 값들은 쇼핑 만족도,나이,리뷰
@@ -62,21 +63,21 @@ const Category = () => {
           고객들이 생각하는 서비스 개선필요 영역 순위
         </div>
         <div className="category_box">
-        <div className="category_plot">
-          <Plot // buy_prediction2
-            data={just1.data}
-            layout={just1.layout}
-            config={{ responsive: true }}
-          />
+          <div className="category_plot">
+            <Plot // buy_prediction2
+              data={just1.data}
+              layout={just1.layout}
+              config={{ responsive: true }}
+            />
           </div>
           <div className="category_txt">
-            ➡ 설문조사 결과 고객 서비스 응답성, 제품 품질 및 정확성, 포장 쓰레기
-            줄이기, 배송속도 및 신뢰성 순으로
-            <br></br>개선이 필요한 것으로 나타났다.
+            ➡ 고객 서비스 응답성, 제품 품질 및 정확성, 포장 쓰레기 줄이기,
+            배송속도 및 신뢰성 순으로 개선이 필요한 것으로 나타났다.
           </div>
+          <br />
+          <br />
         </div>
-        
-        <br />
+
         <div className="category_title">비즈니스 제안 사례</div>
         <br />
         <br />

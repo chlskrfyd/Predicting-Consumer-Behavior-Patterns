@@ -15,11 +15,11 @@
       "showlegend": false,
       "textposition": "auto",
       "x": [
-        "Beauty and Personal Care",
-        "Clothing and Fashion",
-        "Groceries and Gourmet Food",
-        "Home and Kitchen",
-        "others"
+        "\ubdf0\ud2f0 \ubc0f \uac1c\uc778 \uad00\ub9ac",
+        "\uc758\ub958 \ubc0f \ud328\uc158",
+        "\uc2dd\ub8cc\ud488 \ubc0f \uace0\uae09 \uc2dd\ud488",
+        "\ud648 \uc564 \ud0a4\uce5c",
+        "\uae30\ud0c0"
       ],
       "xaxis": "x",
       "y": [318, 343, 111, 220, 166],

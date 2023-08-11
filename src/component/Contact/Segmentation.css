@@ -26,7 +26,7 @@
   margin-top: 50px;
   margin-left: 0;
   font-family: "Noto Sans KR", sans-serif;
-  background-color: rgb(33, 33, 58);
+  /* background-color: rgb(33, 33, 58); */
   border-radius: 2%;
 }
 
@@ -97,16 +97,17 @@
   margin: 10px;
 }
 
-
 .segmentation_txt {
   margin-top: 50px;
   margin-left: 50px;
   font-size: 18px;
   font-family: "Noto Sans KR", sans-serif;
   text-align: left;
-  color: aliceblue;
+  color: black;
 }
 
 .segmentation_plot {
   margin-top: 30px;
+  /* width: 700px;
+  height: 300px; */
 }

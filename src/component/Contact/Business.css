@@ -47,7 +47,7 @@
   content: "";
   flex-grow: 1;
   margin: 20px 16px;
-  background-color: rgb(25, 18, 69);
+  /* background-color: rgb(25, 18, 69); */
   height: 2px;
   font-size: 0px;
   line-height: 0px;
