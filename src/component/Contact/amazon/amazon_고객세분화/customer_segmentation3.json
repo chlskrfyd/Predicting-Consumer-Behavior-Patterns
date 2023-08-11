@@ -424,7 +424,15 @@
     "xaxis": {
       "anchor": "y",
       "domain": [0.0, 1.0],
-      "title": { "text": "\uadf8\ub8f9" }
+      "title": { "text": "\uadf8\ub8f9" },
+      "tickvals": [0, 1, 2, 3],
+      "ticktext": [
+        "\uadf8\ub8f91",
+        "\uadf8\ub8f92",
+        "\uadf8\ub8f93",
+        "\uadf8\ub8f94"
+      ],
+      "type": "category"
     },
     "yaxis": {
       "anchor": "x",
@@ -448,7 +456,7 @@
     },
     "legend": { "tracegroupgap": 0 },
     "title": {
-      "text": "\uadf8\ub8f9\ubcc4 \uc0c1\ud488 \uac80\uc0c9 \ubc29\ubc95 \uae30\ud0c0 \ud3c9\uade0"
+      "text": "\uadf8\ub8f9\ubcc4 \uc81c\ud488 \uac80\uc0c9 \ubc29\ubc95 \uae30\ud0c0 \ud3c9\uade0"
     },
     "barmode": "relative"
   }
