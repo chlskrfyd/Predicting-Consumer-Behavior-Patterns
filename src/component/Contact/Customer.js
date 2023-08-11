@@ -24,13 +24,12 @@ const customer = () => {
         <div className="customer_main_txt">
           고객의 구매 패턴, 브라우징 빈도, 리뷰 남김 여부 등의 정보를 활용하여
           고객 이탈을 예측하는 모델
-          <br></br>이를 통해 이탈할 가능성이 높은 고객에게 특별한 제안을
-          보내거나 개인화된 경험을 제공하여 이탈을 방지할 수 있습니다.
+          <br></br>
+          {/* 이를 통해 이탈할 가능성이 높은 고객에게 특별한 제안을 보내거나
+          개인화된 경험을 제공하여 이탈을 방지할 수 있습니다. */}
         </div>
 
-        <div className="customer_title">
-          고객 이탈률을 선정하는데 있어 어떤 특성이 가장 중요한가
-        </div>
+        <div className="customer_title">고객 이탈률의 주요 영향 요인</div>
         <div className="customer_box">
           <ChartComponent></ChartComponent>
         </div>
@@ -38,19 +37,26 @@ const customer = () => {
         <br />
 
         <div className="customer_txt">
-          ➡ 검색 횟수,소비자 리뷰 중요도, 쇼핑 만족도 등이 고객 이탈률을
-          계산하는데 있어서 중요한 경향이 있는 것을 알 수 있었다.
+          ➡ 인터넷 접속 빈도, 고객 리뷰의 중요성, 쇼핑 만족도 등이 고객 이탈률에
+          큰 영향을 주는 것으로 나타났습니다.
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 이러한 요인들을 중점적으로 관리하면
+          고객 이탈률을 줄일 수 있을 것으로 예상됩니다.
         </div>
         <br />
         <br />
 
-        <div className="customer_title">검색 횟수와 이탈률의 상관관계</div>
+        <div className="customer_title">
+          인터넷 접속 빈도와 이탈률의 상관관계
+        </div>
         <SimpleBarChart></SimpleBarChart>
         <div className="customer_txt">
-          ➡ 그래프에서 가장 중요한 특성을 확인해보기로 했다.
-          <br />➡ 검색 횟수가 낮을수록 고객 이탈률이 높았다.
+          ➡ 이전에 살펴본 주요 영향 요인 중 인터넷 접속 빈도가 고객 이탈률에 큰
+          영향을 미칩니다.
+          <br />➡ 위의 그래프를 통해 인터넷 접속 빈도별로 고객 이탈률의 차이를
+          명확하게 확인할 수 있습니다.
         </div>
-        <div className="customer_title">비즈니스 제안 사례</div>
+        <div className="customer_title">비즈니스 성공 사례</div>
         <br />
         <br />
         <br />
@@ -61,7 +67,7 @@ const customer = () => {
             alt="customer_img1"
           />
           <br />
-          <figcaption>고객이탈예측 비즈니스 제안 사례 1</figcaption>
+          <figcaption>고객이탈예측 비즈니스 성공 사례 1</figcaption>
         </figure>
         <br />
         <br />
@@ -72,7 +78,7 @@ const customer = () => {
             alt="customer_img2"
           />
           <br />
-          <figcaption>고객이탈예측 비즈니스 제안 사례 2</figcaption>
+          <figcaption>고객이탈예측 비즈니스 성공 사례 2</figcaption>
         </figure>
       </div>
     </body>

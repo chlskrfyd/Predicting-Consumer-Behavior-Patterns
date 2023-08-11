@@ -9,10 +9,20 @@ const SimpleBarChart = () => {
     const option2 = {
       xAxis: {
         type: "category",
-        data: ["2~3회 / 월", "2~3회 / 주", "2~3회 / 일", "거의 없음"],
+        data: ["월 2~3회", "주 2~3회", "일 2~3회", "거의 없음"],
+        name: "인터넷 접속 빈도",
+        nameLocation: "middle",
+        nameGap: 50,
       },
       yAxis: {
         type: "value",
+        name: "이탈률",
+        nameLocation: "middle",
+        rotate: 90,
+        nameGap: 50, // 이름과 그래프 사이의 간격
+        min: 0, // 최소값 설정
+        max: 100, // 최대값 설정
+        interval: 20, // 눈금 간격 설정
       },
       series: [
         {
