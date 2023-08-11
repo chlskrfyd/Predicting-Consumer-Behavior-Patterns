@@ -2,17 +2,13 @@
   "data": [
     {
       "alignmentgroup": "True",
-      "hovertemplate": "Feature=\ub098\uc774\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{text}\u003cextra\u003e\u003c\u002fextra\u003e",
+      "hovertemplate": "Feature=\ub098\uc774\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
       "legendgroup": "\ub098\uc774",
       "marker": { "color": "#636efa", "pattern": { "shape": "" } },
       "name": "\ub098\uc774",
       "offsetgroup": "\ub098\uc774",
       "orientation": "v",
       "showlegend": true,
-      "text": [
-        0.03150008408092623, -0.24507740028845892, 0.03715088501882279,
-        0.24782017248587251
-      ],
       "textposition": "auto",
       "x": [0, 1, 2, 3],
       "xaxis": "x",
@@ -25,17 +21,13 @@
     },
     {
       "alignmentgroup": "True",
-      "hovertemplate": "Feature=\ub9de\ucda4\ud615 \ucd94\ucc9c \ube48\ub3c4\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{text}\u003cextra\u003e\u003c\u002fextra\u003e",
+      "hovertemplate": "Feature=\ub9de\ucda4\ud615 \ucd94\ucc9c \ube48\ub3c4\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
       "legendgroup": "\ub9de\ucda4\ud615 \ucd94\ucc9c \ube48\ub3c4",
       "marker": { "color": "#EF553B", "pattern": { "shape": "" } },
       "name": "\ub9de\ucda4\ud615 \ucd94\ucc9c \ube48\ub3c4",
       "offsetgroup": "\ub9de\ucda4\ud615 \ucd94\ucc9c \ube48\ub3c4",
       "orientation": "v",
       "showlegend": true,
-      "text": [
-        0.4504160217268092, 0.03729864582358188, -0.33797030693707725,
-        -0.40293462025673304
-      ],
       "textposition": "auto",
       "x": [0, 1, 2, 3],
       "xaxis": "x",
@@ -48,17 +40,13 @@
     },
     {
       "alignmentgroup": "True",
-      "hovertemplate": "Feature=\uc778\ud130\ub137 \uac80\uc0c9 \ube48\ub3c4\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{text}\u003cextra\u003e\u003c\u002fextra\u003e",
-      "legendgroup": "\uc778\ud130\ub137 \uac80\uc0c9 \ube48\ub3c4",
+      "hovertemplate": "Feature=\uc778\ud130\ub137 \uc811\uc18d \ube48\ub3c4\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
+      "legendgroup": "\uc778\ud130\ub137 \uc811\uc18d \ube48\ub3c4",
       "marker": { "color": "#00cc96", "pattern": { "shape": "" } },
-      "name": "\uc778\ud130\ub137 \uac80\uc0c9 \ube48\ub3c4",
-      "offsetgroup": "\uc778\ud130\ub137 \uac80\uc0c9 \ube48\ub3c4",
+      "name": "\uc778\ud130\ub137 \uc811\uc18d \ube48\ub3c4",
+      "offsetgroup": "\uc778\ud130\ub137 \uc811\uc18d \ube48\ub3c4",
       "orientation": "v",
       "showlegend": true,
-      "text": [
-        -0.20190087646264102, 0.08291679416864457, 1.1414318955533187,
-        -0.26441441549891453
-      ],
       "textposition": "auto",
       "x": [0, 1, 2, 3],
       "xaxis": "x",
@@ -71,17 +59,13 @@
     },
     {
       "alignmentgroup": "True",
-      "hovertemplate": "Feature=\uace0\uac1d \ub9ac\ubdf0 \uc911\uc694\ub3c4\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{text}\u003cextra\u003e\u003c\u002fextra\u003e",
+      "hovertemplate": "Feature=\uace0\uac1d \ub9ac\ubdf0 \uc911\uc694\ub3c4\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
       "legendgroup": "\uace0\uac1d \ub9ac\ubdf0 \uc911\uc694\ub3c4",
       "marker": { "color": "#ab63fa", "pattern": { "shape": "" } },
       "name": "\uace0\uac1d \ub9ac\ubdf0 \uc911\uc694\ub3c4",
       "offsetgroup": "\uace0\uac1d \ub9ac\ubdf0 \uc911\uc694\ub3c4",
       "orientation": "v",
       "showlegend": true,
-      "text": [
-        0.2953077062867556, -0.5998198871065572, 0.6311410555175259,
-        0.20113087256038786
-      ],
       "textposition": "auto",
       "x": [0, 1, 2, 3],
       "xaxis": "x",
@@ -94,17 +78,13 @@
     },
     {
       "alignmentgroup": "True",
-      "hovertemplate": "Feature=\uc7a5\ubc14\uad6c\ub2c8 \ub2f4\uae30 \ube48\ub3c4\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{text}\u003cextra\u003e\u003c\u002fextra\u003e",
+      "hovertemplate": "Feature=\uc7a5\ubc14\uad6c\ub2c8 \ub2f4\uae30 \ube48\ub3c4\u003cbr\u003eCluster=%{x}\u003cbr\u003eMean=%{y}\u003cextra\u003e\u003c\u002fextra\u003e",
       "legendgroup": "\uc7a5\ubc14\uad6c\ub2c8 \ub2f4\uae30 \ube48\ub3c4",
       "marker": { "color": "#FFA15A", "pattern": { "shape": "" } },
       "name": "\uc7a5\ubc14\uad6c\ub2c8 \ub2f4\uae30 \ube48\ub3c4",
       "offsetgroup": "\uc7a5\ubc14\uad6c\ub2c8 \ub2f4\uae30 \ube48\ub3c4",
       "orientation": "v",
       "showlegend": true,
-      "text": [
-        0.39497850755390773, -0.2110642244989022, -0.3377156417327364,
-        -0.0483908057095469
-      ],
       "textposition": "auto",
       "x": [0, 1, 2, 3],
       "xaxis": "x",
@@ -515,14 +495,22 @@
     "xaxis": {
       "anchor": "y",
       "domain": [0.0, 1.0],
-      "title": { "text": "\uadf8\ub8f9" }
+      "title": { "text": "\uadf8\ub8f9" },
+      "tickvals": [0, 1, 2, 3],
+      "ticktext": [
+        "\uadf8\ub8f91",
+        "\uadf8\ub8f92",
+        "\uadf8\ub8f93",
+        "\uadf8\ub8f94"
+      ],
+      "type": "category"
     },
     "yaxis": {
       "anchor": "x",
       "domain": [0.0, 1.0],
       "title": { "text": "\ud3c9\uade0 \uac12" }
     },
-    "legend": { "title": { "text": "Feature" }, "tracegroupgap": 0 },
+    "legend": { "title": { "text": "\ud2b9\uc131" }, "tracegroupgap": 0 },
     "title": {
       "text": "\uadf8\ub8f9\ubcc4 \uc8fc\uc694 \ud2b9\uc131 \ud3c9\uade0 \uac12"
     },
