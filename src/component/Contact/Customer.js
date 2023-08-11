@@ -22,8 +22,8 @@ const customer = () => {
       <div className="about_main">
         <h1 className="customer_main_title">고객이탈예측</h1>
         <div className="customer_main_txt">
-          고객의 구매 패턴, 브라우징 빈도, 리뷰 남김 여부 등의 정보를 활용하여
-          고객 이탈을 예측하는 모델
+          고객의 구매 패턴, 인터넷 접속 빈도, 리뷰 남김 여부 등의 정보를
+          활용하여 고객 이탈을 예측하는 모델
           <br></br>
           {/* 이를 통해 이탈할 가능성이 높은 고객에게 특별한 제안을 보내거나
           개인화된 경험을 제공하여 이탈을 방지할 수 있습니다. */}
