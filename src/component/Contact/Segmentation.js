@@ -18,20 +18,13 @@ const Segmentation = () => {
       <div className="about_main">
         <h1 className="segmentation_main_title">고객 세분화</h1>
         <div className="segmentation_main_txt">
-          고객 세분화는 고객을 공통된 특성을 공유하는 그룹으로 분류하는
-          것입니다.
-          <br /> <br />
-          이 데이터셋을 활용하면, 고객의 구매 패턴, 제품 검색 방법, 리뷰 남김
-          여부, '나중에 저장하기' 기능 사용 빈도 등을 바탕으로 고객을 여러
-          그룹으로 분류할 수 있습니다.
+          고객을 공통된 특성을 가진 그룹으로 분류
           <br />
-          이런 세분화는 마케팅 전략을 개발하거나 개인화된 경험을 제공하는 데
-          유용합니다.
+          구매 패턴, 검색 방법, 리뷰 여부 등으로 고객을 분류 하여 개인화된
+          마케팅 전략 개발에 유용
         </div>
 
-        <div className="segmentation_title">
-          머신러닝 모델을 사용하여 고객을 4개의 그룹으로 세분화했다.
-        </div>
+        <div className="segmentation_title">인공지능 기반 고객 그룹 세분화</div>
         <div className="segmentation_box">
           <div className="segmentation_plot">
             <Plot // customer_segmentation1
@@ -41,11 +34,10 @@ const Segmentation = () => {
             />
           </div>
           <div className="segmentation_txt">
-            ➡&nbsp;고객들을 세분화 한 특성들을 2차원으로 차원 축소하여 보기
-            편하게 만들었다.
+            인공지능을 활용해 고객 특성을 2차원으로 단순화시켰습니다.
             <br />
-            ➡&nbsp;위 그래프를 볼 때 고객들이 잘 세분화되어 나누어져 있는 것을
-            확인할 수 있었다.
+            그래프에서는 고객들이 명확하게 구분되는 그룹으로 나뉘어 있는 것을 볼
+            수 있습니다.
           </div>
         </div>
 
@@ -60,22 +52,20 @@ const Segmentation = () => {
           </div>
           <div className="segmentation_txt">
             <div>
-              ➡&nbsp;그룹 0: 개인화된 추천 빈도가 높고, 검색 횟수는 낮은 편이다.
+              ➡&nbsp;그룹 0 : 개인화된 추천 빈도가 높고, 검색 횟수는 낮음
             </div>
             <div>
-              ➡&nbsp;그룹 1:나이가 가장 어리고 고객 리뷰를 중요하게
-              생각하지않는다.
+              ➡&nbsp;그룹 1 : 나이가 가장 어리고 고객 리뷰를 중요하게 생각하지
+              않음
             </div>
             <div>
-              ➡&nbsp;그룹 2:검색 횟수가 가장 높으며, 고객 리뷰를 중요하게
-              생각하며 개인화된 추천 빈도와 장바구니 완성 빈도는 낮다.
+              ➡&nbsp;그룹 2 : 검색 횟수가 가장 높으며, 고객 리뷰를 중요하게
+              생각하며 개인화된 추천 빈도와 장바구니 완성 빈도 낮음
               <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제품을 검색할때 주로 다른
-              방법(other)으로 검색한다.
             </div>
             <div>
-              ➡&nbsp;그룹 3: 나이가 가장 높으며, 개인화된 추천 빈도와 검색
-              횟수가 낮고,장바구니 사용빈도가 낮음
+              ➡&nbsp;그룹 3 : 나이가 가장 많으며 개인화된 추천 빈도와 검색
+              횟수가 낮고, 장바구니 사용빈도가 낮음
             </div>
           </div>
         </div>
@@ -92,11 +82,14 @@ const Segmentation = () => {
             />
           </div>
           <div className="segmentation_txt">
-            ➡&nbsp;2번 그룹이 다른 고객들에 비해 제품을 고를 때 키워드,태그와
-            다른 방법을 사용한 경우가 많았다.
+            22번 그룹의 고객들은 제품 선택 시 키워드와 태그외 다른 방법을 주로
+            활용하는 것으로 나타났습니다.
+            <br />
+            이를 통해 마케팅 전략이나 제품 추천 시 키워드와 태그 중심의 접근이
+            필요함을 알 수 있습니다.
           </div>
         </div>
-        <div className="segmentation_title">비즈니스 제안 사례</div>
+        <div className="segmentation_title">비즈니스 성공 사례</div>
         <br />
         <br />
         <figure>

@@ -21,12 +21,12 @@ const Category = () => {
         <h1 className="category_main_title">구매 카테고리 예측</h1>
         <div className="category_main_txt">
           고객의 성별, 연령, 검색 방법, 구매 빈도 등의 정보를 바탕으로 특정
-          제품을 구매할 확률을 예측하는 모델을 만들 수 있습니다.
-          <br></br> 이를 통해 고객에게 가장 관련성이 높은 제품을 추천하거나
-          개인화된 마케팅 메시지를 제공할 수 있습니다.
+          제품을 구매할 확률을 예측하는 모델
+          <br></br> 고객에게 가장 관련성이 높은 제품을 추천하거나 개인화된
+          마케팅 메시지를 제공
         </div>
 
-        <div className="category_title">카테고리에 따른 구매빈도</div>
+        <div className="category_title">제품 카테고리별 구매빈도</div>
         <div className="category_box">
           <div className="category_plot">
             <Plot // buy_prediction1
@@ -36,15 +36,17 @@ const Category = () => {
             />
           </div>
           <div className="category_txt">
-            ➡ 카테고리에 따른 현재 구매빈도를 보면 옷이 구매횟수가 제일 많고 그
-            다음이 뷰티용품인 것으로 보인다.
+            이 그래프에서는 의류 카테고리의 구매가 가장 많음을 확인할 수 있으며
+            뷰티용품이 그 뒤를 이었습니다.
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아마존의 주 고객이 20대 중후반 여성이
-            많은 것과 밀접한 관련이 있다고 보여진다.
+            여성 고객들이 남성보다 쇼핑을 더 활발히 이용하는 경향이 이러한 구매
+            패턴을 형성한 것으로 보입니다.
           </div>
         </div>
 
-        <div className="category_title">음식 카테고리와 특성간의 상관관계</div>
+        <div className="category_title">
+          식료품 카테고리와 특성간의 상관관계
+        </div>
         <div className="category_box">
           <div className="category_plot">
             <Plot // buy_prediction2
@@ -54,13 +56,16 @@ const Category = () => {
             />
           </div>
           <div className="category_txt">
-            ➡ 식료품과 음식 카테고리에 중요한 특성 값들은 쇼핑 만족도,나이,리뷰
-            중요도 등이 있다.
+            쇼핑 만족도, 고객의 나이, 그리고 리뷰에 대한 중요도 평가가 이
+            카테고리의 구매 결정에 큰 영향을 미치는 것으로 나타났습니다.
+            <br />
+            이러한 특성들을 주목하여 식료품 카테고리의 마케팅 전략을 세우는데
+            참고할 수 있습니다.
           </div>
         </div>
 
         <div className="category_title">
-          고객들이 생각하는 서비스 개선필요 영역 순위
+          고객들이 생각하는 서비스 개선 필요 영역 순위
         </div>
         <div className="category_box">
           <div className="category_plot">
@@ -71,15 +76,15 @@ const Category = () => {
             />
           </div>
           <div className="category_txt">
-            ➡ 고객 서비스 응답성, 제품 품질 및 정확성, 포장 쓰레기 줄이기,
-            배송속도 및 신뢰성 순으로 개선이 필요한 것으로 나타났다.
+            설문조사 결과 고객 서비스 응답성, 제품 품질 및 정확성, 과대포장,
+            배송속도 및 신뢰성 순으로 개선이 필요한 것으로 나타났습니다.
           </div>
           <br />
           <br />
           <br />
         </div>
 
-        <div className="category_title">비즈니스 제안 사례</div>
+        <div className="category_title">비즈니스 성공 사례</div>
         <br />
         <br />
         <figure>
