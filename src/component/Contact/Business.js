@@ -39,7 +39,7 @@ const Business = () => {
           ></img>
           <figcaption>비즈니스 전략 제시</figcaption>
         </figure>
-        <div className="segmentation_box">
+        <div className="business_box">
           ➡&nbsp;아마존 소비자의 구매 패턴, 선호도, 행동 데이터를 기반으로
           고객을 깊이 이해하고 행동분석 결과를 바탕으로 효과적인
           <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;마케팅 및 제품 추천 전략을

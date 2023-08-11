@@ -29,24 +29,30 @@ const customer = () => {
         <div className="customer_title">
           고객 이탈률을 선정하는데 있어 어떤 특성이 가장 중요한가
         </div>
-        <div className="customer_img">
-          <img src={고객이탈예측1} alt="고객이탈예측1"></img>
-        </div>
-        <div className="customer_txt">
-          {" "}
-          ➡ 검색 횟수,소비자 리뷰 중요도, 쇼핑 만족도 등이 고객 이탈률을
-          계산하는데 있어서 중요한 경향이 있는 것을 알 수 있었다.
+        <div className="customer_box">
+          <div className="customer_img">
+            <img src={고객이탈예측1} alt="고객이탈예측1"></img>
+          </div>
+          <div className="customer_txt">
+            {" "}
+            ➡ 검색 횟수,소비자 리뷰 중요도, 쇼핑 만족도 등이 고객 이탈률을
+            계산하는데 있어서 중요한 경향이 있는 것을 알 수 있었다.
+          </div>
         </div>
 
+
         <div className="customer_title">검색 횟수와 이탈률의 상관관계</div>
+        <div className="customer_box_2">
         <div className="customer_img">
           <img src={고객이탈예측2} alt="고객이탈예측2"></img>
         </div>
-        <div className="customer_txt">
+        <div className="customer_txt_2">
           {" "}
           ➡ 그래프에서 가장 중요한 특성을확인해보기로하였다. 검색 횟수가
           낮을수록 고객 이탈률이 높다.
         </div>
+        </div>
+
         <div className="customer_title">비즈니스 제안 사례</div>
         <br />
         <br />

@@ -45,11 +45,13 @@ const Category = () => {
 
         <div className="category_title">음식 카테고리와 특성간의 상관관계</div>
         <div className="category_box">
+        <div className="category_plot">
           <Plot // buy_prediction2
             data={buy_prediction2.data}
             layout={buy_prediction2.layout}
             config={{ responsive: true }}
           />
+          </div>
           <div className="category_txt">
             ➡ 식료품과 음식 카테고리에 중요한 특성 값들은 쇼핑 만족도,나이,리뷰
             중요도 등이 있다.
@@ -59,20 +61,21 @@ const Category = () => {
         <div className="category_title">
           고객들이 생각하는 서비스 개선필요 영역 순위
         </div>
-
         <div className="category_box">
+        <div className="category_plot">
           <Plot // buy_prediction2
             data={just1.data}
             layout={just1.layout}
             config={{ responsive: true }}
           />
-
+          </div>
           <div className="category_txt">
             ➡ 설문조사 결과 고객 서비스 응답성, 제품 품질 및 정확성, 포장 쓰레기
             줄이기, 배송속도 및 신뢰성 순으로
             <br></br>개선이 필요한 것으로 나타났다.
           </div>
         </div>
+        
         <br />
         <div className="category_title">비즈니스 제안 사례</div>
         <br />

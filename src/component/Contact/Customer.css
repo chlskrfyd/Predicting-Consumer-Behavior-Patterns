@@ -20,16 +20,23 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 .customer_box {
-  border-top: 5px gray;
-  text-align: left;
-  display: flex;
-  align-items: center;
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(33, 33, 58);
+  border-radius: 2%;
 }
 
 .customer_box_2 {
-  margin-top: 30px;
   width: 100%;
-  height: auto;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(33, 33, 58);
+  border-radius: 2%;
 }
 
 .customer_main_title {
@@ -80,17 +87,18 @@
   margin-top: 70px;
   margin-left: 200px;
   width: 60%;
-  height: 80%;
+  height: 40%;
   flex: 1;
   max-width: 70%;
 }
 
 .customer_txt {
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-left: 50px;
   font-size: 18px;
   font-family: "Noto Sans KR", sans-serif;
   text-align: left;
+  color: aliceblue;
 }
 
 .customer_main_txt {
@@ -103,4 +111,13 @@
 .customerResult_img {
   border: 1px solid black;
   align-items: center;
+}
+
+.customer_txt_2{
+  margin-top: 150px;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: left;
+  color: aliceblue;
 }
