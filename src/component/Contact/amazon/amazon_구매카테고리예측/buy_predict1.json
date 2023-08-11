@@ -28,6 +28,7 @@
     }
   ],
   "layout": {
+    "width": 1000,
     "template": {
       "data": {
         "barpolar": [

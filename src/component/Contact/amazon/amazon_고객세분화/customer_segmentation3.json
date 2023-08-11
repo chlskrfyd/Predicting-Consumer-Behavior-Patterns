@@ -25,6 +25,7 @@
     }
   ],
   "layout": {
+    "width": 1000,
     "template": {
       "data": {
         "histogram2dcontour": [
