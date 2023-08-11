@@ -20,8 +20,22 @@ const ChartComponent = () => {
         ],
       },
       grid: { containLabel: true },
-      xAxis: { name: "amount" },
-      yAxis: { type: "category" },
+      xAxis: {
+        name: "",
+        nameLocation: "middle",
+        nameGap: 30,
+        axisLabel: {
+          fontSize: 14, // 원하는 글씨 크기로 변경
+          color: "black",
+        },
+      },
+      yAxis: {
+        type: "category",
+        axisLabel: {
+          fontSize: 14, // 원하는 글씨 크기로 변경
+          color: "black",
+        },
+      },
       visualMap: {
         orient: "horizontal",
         left: "center",
