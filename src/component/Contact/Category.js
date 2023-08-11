@@ -76,6 +76,7 @@ const Category = () => {
           </div>
           <br />
           <br />
+          <br />
         </div>
 
         <div className="category_title">비즈니스 제안 사례</div>
