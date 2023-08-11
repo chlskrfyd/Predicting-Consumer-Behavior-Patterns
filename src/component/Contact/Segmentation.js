@@ -52,19 +52,19 @@ const Segmentation = () => {
           </div>
           <div className="segmentation_txt">
             <div>
-              ➡&nbsp;그룹 0 : 개인화된 추천 빈도가 높고, 검색 횟수는 낮음
+              ➡&nbsp;그룹 1 : 개인화된 추천 빈도가 높고, 검색 횟수는 낮음
             </div>
             <div>
-              ➡&nbsp;그룹 1 : 나이가 가장 어리고 고객 리뷰를 중요하게 생각하지
+              ➡&nbsp;그룹 2 : 나이가 가장 어리고 고객 리뷰를 중요하게 생각하지
               않음
             </div>
             <div>
-              ➡&nbsp;그룹 2 : 검색 횟수가 가장 높으며, 고객 리뷰를 중요하게
+              ➡&nbsp;그룹 3 : 검색 횟수가 가장 높으며, 고객 리뷰를 중요하게
               생각하며 개인화된 추천 빈도와 장바구니 완성 빈도 낮음
               <br />
             </div>
             <div>
-              ➡&nbsp;그룹 3 : 나이가 가장 많으며 개인화된 추천 빈도와 검색
+              ➡&nbsp;그룹 4 : 나이가 가장 많으며 개인화된 추천 빈도와 검색
               횟수가 낮고, 장바구니 사용빈도가 낮음
             </div>
           </div>
@@ -82,7 +82,7 @@ const Segmentation = () => {
             />
           </div>
           <div className="segmentation_txt">
-            22번 그룹의 고객들은 제품 선택 시 키워드와 태그외 다른 방법을 주로
+            3번 그룹의 고객들은 제품 선택 시 키워드와 태그외 다른 방법을 주로
             활용하는 것으로 나타났습니다.
             <br />
             이를 통해 마케팅 전략이나 제품 추천 시 키워드와 태그 중심의 접근이
@@ -99,7 +99,7 @@ const Segmentation = () => {
             alt="segmentation_img1"
           />
           <br />
-          <figcaption>고객세분화 비즈니스 제안 사례 1</figcaption>
+          <figcaption>고객세분화 비즈니스 성공 사례 1</figcaption>
         </figure>
         <figure>
           <img
@@ -107,7 +107,7 @@ const Segmentation = () => {
             src={segmentation_img2}
             alt="segmentation_img2"
           />
-          <figcaption>고객세분화 비즈니스 제안 사례 2</figcaption>
+          <figcaption>고객세분화 비즈니스 성공 사례 2</figcaption>
         </figure>
       </div>
     </body>

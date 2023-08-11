@@ -26,6 +26,7 @@
   margin: 30px;
   text-align: left;
   font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
 }
 
 .business_box_2 {
@@ -53,7 +54,7 @@
   line-height: 0px;
 }
 
-.amazon_1 {
+/* .amazon_1 {
   margin-left: 770px;
   width: 100px;
   height: 40px;
@@ -69,7 +70,7 @@
   margin-left: 790px;
   width: 100px;
   height: 40px;
-}
+} */
 
 .buy_prediction_img {
   width: 600px;

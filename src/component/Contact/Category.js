@@ -94,7 +94,7 @@ const Category = () => {
             alt="categoryResult1"
           />
           <br />
-          <figcaption>고객세분화 비즈니스 제안 사례 1</figcaption>
+          <figcaption>고객세분화 비즈니스 성공 사례 1</figcaption>
         </figure>
         <br />
         <figure>
@@ -103,7 +103,7 @@ const Category = () => {
             src={categoryResult2}
             alt="categoryResult2"
           />
-          <figcaption>고객세분화 비즈니스 제안 사례 2</figcaption>
+          <figcaption>고객세분화 비즈니스 성공 사례 2</figcaption>
         </figure>
       </div>
     </body>
