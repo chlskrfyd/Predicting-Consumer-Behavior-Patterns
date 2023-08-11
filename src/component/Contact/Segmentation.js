@@ -7,6 +7,8 @@ import Plot from "react-plotly.js";
 import segmentation1 from "./amazon/amazon_고객세분화/customer_segmentation1.json";
 import segmentation2 from "./amazon/amazon_고객세분화/customer_segmentation2.json";
 import segmentation3 from "./amazon/amazon_고객세분화/customer_segmentation3.json";
+
+// 비즈니스 제안 사례
 import segmentation_img1 from "./business_img/segmentation1.png";
 import segmentation_img2 from "./business_img/segmentation2.png";
 
@@ -94,7 +96,6 @@ const Segmentation = () => {
             alt="segmentation_img1"
           />
           <br />
-
           <figcaption>고객세분화 비즈니스 제안 사례 1</figcaption>
         </figure>
         <figure>

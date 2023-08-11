@@ -7,8 +7,12 @@ import Plot from "react-plotly.js";
 import buy_prediction1 from "./amazon/amazon_구매카테고리예측/buy_predict1.json";
 import buy_prediction2 from "./amazon/amazon_구매카테고리예측/buy_predict2.json";
 import just1 from "./amazon/amazon_구매카테고리예측/just1.json";
-import just2 from "./amazon/amazon_구매카테고리예측/just2.json";
-import 구매예측4 from "./amazon/amazon_구매카테고리예측/구매예측4.png";
+// import just2 from "./amazon/amazon_구매카테고리예측/just2.json";
+// import 구매예측4 from "./amazon/amazon_구매카테고리예측/구매예측4.png";
+
+// 비즈니스 제안 사례
+import categoryResult1 from "./business_img/category1.png";
+import categoryResult2 from "./business_img/category2.png";
 
 const Category = () => {
   return (
@@ -69,6 +73,28 @@ const Category = () => {
             <br></br>개선이 필요한 것으로 나타났다.
           </div>
         </div>
+        <br />
+        <div className="category_title">비즈니스 제안 사례</div>
+        <br />
+        <br />
+        <figure>
+          <img
+            className="categoryResult"
+            src={categoryResult1}
+            alt="categoryResult1"
+          />
+          <br />
+          <figcaption>고객세분화 비즈니스 제안 사례 1</figcaption>
+        </figure>
+        <br />
+        <figure>
+          <img
+            className="categoryResult"
+            src={categoryResult2}
+            alt="categoryResult2"
+          />
+          <figcaption>고객세분화 비즈니스 제안 사례 2</figcaption>
+        </figure>
       </div>
     </body>
   );

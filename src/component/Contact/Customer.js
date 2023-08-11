@@ -6,9 +6,13 @@ import Plot from "react-plotly.js";
 // 고객 이탈 예측
 import 고객이탈예측1 from "./amazon/amazon_고객이탈예측/고객이탈예측1.png";
 import 고객이탈예측2 from "./amazon/amazon_고객이탈예측/고객이탈예측2.png";
-import 고객이탈예측3_1 from "./amazon/amazon_고객이탈예측/고객이탈예측3-1.png";
-import 고객이탈예측3_2 from "./amazon/amazon_고객이탈예측/고객이탈예측3-2.png";
-import 고객이탈예측4 from "./amazon/amazon_고객이탈예측/고객이탈예측4.png";
+// import 고객이탈예측3_1 from "./amazon/amazon_고객이탈예측/고객이탈예측3-1.png";
+// import 고객이탈예측3_2 from "./amazon/amazon_고객이탈예측/고객이탈예측3-2.png";
+// import 고객이탈예측4 from "./amazon/amazon_고객이탈예측/고객이탈예측4.png";
+
+// 비즈니스 전략
+import customer_img1 from "./business_img/customer1.png";
+import customer_img2 from "./business_img/customer2.png";
 
 const customer = () => {
   return (
@@ -43,6 +47,30 @@ const customer = () => {
           ➡ 그래프에서 가장 중요한 특성을확인해보기로하였다. 검색 횟수가
           낮을수록 고객 이탈률이 높다.
         </div>
+        <div className="customer_title">비즈니스 제안 사례</div>
+        <br />
+        <br />
+        <br />
+        <figure>
+          <img
+            className="customerResult_img"
+            src={customer_img1}
+            alt="customer_img1"
+          />
+          <br />
+          <figcaption>고객이탈예측 비즈니스 제안 사례 1</figcaption>
+        </figure>
+        <br />
+        <br />
+        <figure>
+          <img
+            className="customerResult_img"
+            src={customer_img2}
+            alt="customer_img2"
+          />
+          <br />
+          <figcaption>고객이탈예측 비즈니스 제안 사례 2</figcaption>
+        </figure>
       </div>
     </body>
   );
