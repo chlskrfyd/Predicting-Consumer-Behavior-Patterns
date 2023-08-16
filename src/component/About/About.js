@@ -53,7 +53,7 @@ const About = () => {
             <div className="image-container">
               <img src={지혜} alt="지혜" className="mem-pic" />
               <div className="image-caption">
-                <p className="about_p">김지혜</p>
+                <p className="about_p">강지혜</p>
                 <p1>데이터분석 담당</p1>
               </div>
             </div>
